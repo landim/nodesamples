@@ -4,7 +4,7 @@
   "description": "says hello to name",
   "main": "server.js",
   "scripts": {
-    "test": "curl -i http://127.0.0.1:3000/api/arthur",
+    "test": "curl  -H 'Content-Type: application/json' -X POST -d '{\"name\":\"Arthur Landim\"}' http://127.0.0.1:3000/api",
     "start": "node server.js"
   },
   "author": "Arthur Landim",
