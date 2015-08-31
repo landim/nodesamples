@@ -1,0 +1,10 @@
+{
+  "name": "book-tools",
+  "version": "0.1.0",
+  "description": "tools for creating an ebook database",
+  "author": "Arthur Landim",
+  "dependencies": {
+    "async": "^1.4.2",
+    "request": "^2.61.0"
+  }
+}

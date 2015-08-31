@@ -1,10 +1,10 @@
 {
-  "name": "hello",
+  "name": "b4",
   "version": "1.0.0",
-  "description": "says hello to name",
+  "description": "bundle of books",
   "main": "server.js",
   "scripts": {
-    "test": "curl  -H 'Content-Type: application/json' -X POST -d '{\"name\":\"Arthur Landim\"}' http://127.0.0.1:3000/api",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "Arthur Landim",
@@ -12,7 +12,7 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
-    "mocha": "^2.3.0",
+    "q": "^1.4.1",
     "request": "^2.61.0"
   }
 }
