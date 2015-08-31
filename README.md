@@ -1,2 +1,3 @@
 # nodesamples
-Samples in node.js
+Sample codes in node.js based on book "Node.JS - the Right Way".
+

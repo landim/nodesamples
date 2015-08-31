@@ -1,0 +1,16 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "says hello to name",
+  "main": "server.js",
+  "scripts": {
+    "test": "curl -i http://127.0.0.1:3000/api/arthur",
+    "start": "node server.js"
+  },
+  "author": "Arthur Landim",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3"
+  }
+}
